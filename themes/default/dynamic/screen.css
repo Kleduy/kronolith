@@ -952,3 +952,15 @@ div.kronolithEditable:hover .kronolithDragger,
         white-space: normal;
     }
 }
+@media only screen and (max-width:1230px) {
+    #kronolithBody {
+        position: absolute;
+        top: 99px;
+        left: 8px;
+        right: 0;
+        bottom: 0;
+        overflow: auto;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
