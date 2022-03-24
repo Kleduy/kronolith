@@ -161,19 +161,6 @@ span.kronolithDialogWarning {
 .kronolithDialog select:focus {
     border-color: #d0d0d0;
 }
-.kronolithLongField,
-#kronolithEventTitle,
-#kronolithTaskTitle,
-#kronolithCalendarinternalName,
-#kronolithCalendartasklistsName,
-#kronolithCalendarremoteUrl,
-#kronolithCalendarremoteUsername,
-#kronolithCalendarremotePassword,
-#kronolithCalendarremoteName,
-#kronolithCalendarresourceName,
-#kronolithCalendarresourcegroupName {
-    width: 99%;
-}
 
 div.kronolithFormActions {
     margin: 5px 0;
@@ -298,7 +285,7 @@ ul.horde-tags li:hover {
 #kronolithEventTabAttendees td, #kronolithEventTabAttendees th,
 #kronolithEventTabResources td, #kronolithEventTabResources th {
     border: 1px solid #999;
-    font-size: 85%;
+    font-size: 74%;
     padding: 1px;
     height: 18px;
     width: 18px;
@@ -475,7 +462,6 @@ ul.horde-tags li:hover {
 #kronolithViewYear .kronolith-minical {
     float: left;
     margin: 10px 0 0 10px;
-    height: 201px;
 }
 #kronolithViewYear .kronolithLoading {
     left: 10px;
@@ -952,3 +938,4 @@ div.kronolithEditable:hover .kronolithDragger,
         white-space: normal;
     }
 }
+
