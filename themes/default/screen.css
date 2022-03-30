@@ -73,6 +73,7 @@ table.kronolith-view.kronolith-sidebyside {
 }
 table.kronolith-view tr {
     background-color: #c2cccf;
+    font-size: 88%
 }
 table.kronolith-view td, table.kronolith-view th {
     padding: 0;
@@ -87,6 +88,7 @@ table.kronolith-view td, table.kronolith-view th {
     text-overflow: ellipsis;
     -o-text-overflow: ellipsis;
     vertical-align: middle;
+    
 }
 .kronolith-sidebyside .kronolith-view-head table td,
 .kronolith-sidebyside table.kronolith-view-head td,
