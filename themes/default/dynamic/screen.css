@@ -1,3 +1,4 @@
+ 
 html, body {
     height: 100%;
 }
@@ -134,9 +135,12 @@ span.kronolithDialogWarning {
 
 /* Event/task form dialogs */
 .kronolithDialog {
-    width: 710px;
+    width: 810px;
     padding: 10px 20px;
     border: 1px #999 solid;
+    
+    overflow: auto;
+    height:850px;
 }
 #RB_window .kronolithDialog p {
     margin-bottom: 5px;
@@ -160,6 +164,19 @@ span.kronolithDialogWarning {
 .kronolithDialog textarea:focus,
 .kronolithDialog select:focus {
     border-color: #d0d0d0;
+}
+.kronolithLongField,
+#kronolithEventTitle,
+#kronolithTaskTitle,
+#kronolithCalendarinternalName,
+#kronolithCalendartasklistsName,
+#kronolithCalendarremoteUrl,
+#kronolithCalendarremoteUsername,
+#kronolithCalendarremotePassword,
+#kronolithCalendarremoteName,
+#kronolithCalendarresourceName,
+#kronolithCalendarresourcegroupName {
+    width: 96%;
 }
 
 div.kronolithFormActions {
@@ -285,7 +302,7 @@ ul.horde-tags li:hover {
 #kronolithEventTabAttendees td, #kronolithEventTabAttendees th,
 #kronolithEventTabResources td, #kronolithEventTabResources th {
     border: 1px solid #999;
-    font-size: 74%;
+    font-size: 70%;
     padding: 1px;
     height: 18px;
     width: 18px;
@@ -462,6 +479,7 @@ ul.horde-tags li:hover {
 #kronolithViewYear .kronolith-minical {
     float: left;
     margin: 10px 0 0 10px;
+    height: 201px;
 }
 #kronolithViewYear .kronolithLoading {
     left: 10px;
@@ -810,7 +828,7 @@ div.kronolithEditable:hover .kronolithDragger,
 
 /* Redbox styles. */
 #RB_window {
-    top: 50px !important;
+    top: 30px !important;
     margin-top: 0 !important;
 }
 
@@ -938,4 +956,3 @@ div.kronolithEditable:hover .kronolithDragger,
         white-space: normal;
     }
 }
-
